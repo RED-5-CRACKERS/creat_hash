@@ -60,9 +60,6 @@ while az is 'y':
                 print("exit   : exit")
     elif b == '':
         print('Hash/:> ')
-
-    else:
-        print("Error: 'get' unspecified , use ?")
     elif b == 'sha224':
         while b == 'sha224':
             a=input('Hash/sha224/:> ')
@@ -146,3 +143,6 @@ while az is 'y':
                 print('Hash/sha512/:> ')
             else:
                 print("Error: 'get' unspecified, use : ? ")
+    else:
+        print("Error: 5035 ")
+        print("use '?' to help ")
