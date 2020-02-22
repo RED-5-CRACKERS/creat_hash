@@ -17,7 +17,7 @@ while az is 'y':
             elif a == 'exit':
                 break
             elif a == '?':
-                print("sha1,sha224,sha256,sha384  ")
+                print("md5,sha1,sha224,sha256,sha384  ")
                 print('sha512 : algorithm   ')
                 print('..     : go back')
                 print('get    : ready to get the input')
@@ -51,12 +51,12 @@ while az is 'y':
     elif b == 'exit':
         break
     elif a == '?':
-                print("sha1,sha224,sha256,sha384  ")
-                print('sha512 : algorithm   ')
-                print('..     : go back')
-                print('get    : ready to get the input')
-                print('?      : this banner will appear ')
-                print("exit   : exit")
+        print("sha1,sha224,sha256,sha384  ")
+        print('sha512 : algorithm   ')
+        print('..     : go back')
+        print('get    : ready to get the input')
+        print('?      : this banner will appear ')
+        print("exit   : exit")
     elif b == '':
         print('Hash/:> ')
     elif b == 'sha224':
@@ -68,7 +68,7 @@ while az is 'y':
             elif a == '..':
                 break
             elif a == '':
-                print('Hash/sha224:> ')
+                print('Hash/sha224/:> ')
             elif a == '?':
                 print("sha1,sha224,sha256,sha384  ")
                 print('sha512 : algorithm   ')
@@ -77,7 +77,7 @@ while az is 'y':
                 print('?      : this banner will appear ')
                 print("exit   : exit")
             else:
-                print('Error : 'get' unspecified ,use ? ') 
+                print("Error : 'get' unspecified ,use ? ") 
          
     elif b == 'sha256':
         while b == 'sha256':
