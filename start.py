@@ -15,7 +15,6 @@ while az is 'y':
             elif a == '..':
                 break
             elif a == 'exit':
-                b=a
                 break
             elif a == '?':
                 print("sha1,sha224,sha256,sha384  ")
@@ -85,7 +84,7 @@ while az is 'y':
             a=input('Hash/sha256/:> ')
             if a == 'get':
                 c=input('Hash/sha256/getting:> ')
-                print('Hash/sha256/:> ',hashlib.sha265(c.encode('UTF-8')).hexdigest())
+                print('Hash/sha256/:> ',hashlib.sha256(c.encode('UTF-8')).hexdigest())
             elif a == '..':
                 break
             elif a == 'exit':
